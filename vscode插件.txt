@@ -1,0 +1,36 @@
+Auto Close Tag
+
+Auto Rename Tag
+
+AutoFileName
+
+Bracket Pair Colorizer
+
+EsLint
+
+filesize
+
+HTML CSS Support
+
+HTML Snippets
+
+HTMLHint
+
+Javascript (ES6) code snippets
+
+jQuery Code Snippets
+
+Material Theme
+
+npm Intellisense
+
+seti-icons
+
+Vetur
+
+View In Browser
+
+vscode-jq
+
+VueHelper
+

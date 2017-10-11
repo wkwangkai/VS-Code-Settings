@@ -1,0 +1,25 @@
+{
+    "editor.parameterHints": true,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "workbench.activityBar.visible": false,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.lineHeight": 24,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "workbench.colorTheme": "Material Theme",
+    "typescript.check.npmIsInstalled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "css.lint.duplicateProperties": "warning",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 13,
+    "window.menuBarVisibility": "toggle"
+  }

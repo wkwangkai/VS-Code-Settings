@@ -1,0 +1,113 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        "key": "alt+enter",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+k z",
+        "command": "-workbench.action.toggleZenMode"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "workbench.action.findInFiles",
+        "when": "!searchInputBoxFocus"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "-workbench.action.findInFiles",
+        "when": "!searchInputBoxFocus"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.replaceInFiles"
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "-workbench.action.replaceInFiles"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+f12",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+shift+numpad_subtract",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+0",
+        "command": "-editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "alt+f2",
+        "command": "extension.viewInBrowser",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+f1",
+        "command": "-extension.viewInBrowser",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+c",
+        "command": "extension.colorHelper.pick",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+c p",
+        "command": "-extension.colorHelper.pick",
+        "when": "editorTextFocus"
+    }
+]
