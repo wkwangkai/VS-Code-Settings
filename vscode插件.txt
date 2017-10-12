@@ -34,3 +34,8 @@ vscode-jq
 
 VueHelper
 
+Quakka.js
+
+VS Color Picker
+
+CSS Peek
